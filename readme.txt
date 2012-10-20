@@ -1,6 +1,6 @@
-
-±àÒëËµÃ÷:
-1.³É¹¦±àÒëÕâ¸ö½â¾ö·½°¸ÖÁÉÙĞèÒª°²×°.Net framework 3.5 sp1.
-  ÏÂÔØµØÖ·:http://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe
-2.Èç¹ûÎ´°²×°Visual Studio¿ª·¢¹¤¾ß,ÔËĞĞMSBuild.batÅú´¦ÀíÒ²¿ÉÒÔ±àÒëÏîÄ¿ÎÄ¼ş.
-3.Ó¦ÓÃ³ÌĞòÆô¶¯Î»ÖÃ:SmartSpider\bin\Debug\SmartSpider.exe
+ï»¿
+ç¼–è¯‘è¯´æ˜:
+1.æˆåŠŸç¼–è¯‘è¿™ä¸ªè§£å†³æ–¹æ¡ˆè‡³å°‘éœ€è¦å®‰è£….Net framework 3.5 sp1.
+  ä¸‹è½½åœ°å€:http://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe
+2.å¦‚æœæœªå®‰è£…Visual Studioå¼€å‘å·¥å…·,è¿è¡ŒMSBuild.batæ‰¹å¤„ç†ä¹Ÿå¯ä»¥ç¼–è¯‘é¡¹ç›®æ–‡ä»¶.
+3.åº”ç”¨ç¨‹åºå¯åŠ¨ä½ç½®:SmartSpider\bin\Debug\SmartSpider.exe
