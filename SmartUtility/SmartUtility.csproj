@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}</ProjectGuid>
+    <ProjectGuid>{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SmartSpider.Config</RootNamespace>
-    <AssemblyName>SmartSpider.Config</AssemblyName>
+    <RootNamespace>Smart.Utility</RootNamespace>
+    <AssemblyName>Smart.Utility</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Smart.Utility.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,57 +34,51 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration.cs" />
-    <Compile Include="DatabaseType.cs" />
-    <Compile Include="ParseExtractRoles.cs" />
-    <Compile Include="ExtractionRule.cs" />
-    <Compile Include="Filter.cs" />
-    <Compile Include="HtmlMark.cs" />
-    <Compile Include="HtmlMarkDictionary.cs" />
-    <Compile Include="HttpHelper.cs" />
-    <Compile Include="HttpMethod.cs" />
-    <Compile Include="ISmartSpider.cs" />
-    <Compile Include="Layer.cs" />
-    <Compile Include="LogEventArgs.cs" />
-    <Compile Include="LogFileStyle.cs" />
-    <Compile Include="NavigationRule.cs" />
-    <Compile Include="NotifyWindowMode.cs" />
-    <Compile Include="PagedUrlPattern.cs" />
-    <Compile Include="PagedUrlPatternsMode.cs" />
+    <Compile Include="BuildSql.cs" />
+    <Compile Include="ChineseToSpell.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="ConnectionInfo.cs" />
+    <Compile Include="DataCache.cs" />
+    <Compile Include="Date\WeekService.cs" />
+    <Compile Include="Domain\WhoisSearch.cs" />
+    <Compile Include="Alerts.cs" />
+    <Compile Include="IpAddress.cs" />
+    <Compile Include="NumberToChineseChar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ParseNavigationRules.cs" />
-    <Compile Include="RegularExpression.cs" />
-    <Compile Include="Replacement.cs" />
-    <Compile Include="RequestHeader.cs" />
-    <Compile Include="RequiredOptions.cs" />
-    <Compile Include="ScheduleMode.cs" />
-    <Compile Include="ShutDownMode.cs" />
-    <Compile Include="SmartSpiderCore.cs" />
-    <Compile Include="SmartSpiderInformation.cs" />
-    <Compile Include="SmartSpiderWebProxy.cs" />
-    <Compile Include="Action.cs" />
-    <Compile Include="Task.cs" />
-    <Compile Include="TaskController.cs" />
-    <Compile Include="TaskUnit.cs" />
-    <Compile Include="UrlListManager.cs" />
-    <Compile Include="Week.cs" />
+    <Compile Include="PublicCheck.cs" />
+    <Compile Include="RegexLib.cs" />
+    <Compile Include="SecurityEncryption.cs" />
+    <Compile Include="SerializeUtilities.cs" />
+    <Compile Include="ISessionBox.cs" />
+    <Compile Include="StringHandle.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="TypeParse.cs" />
+    <Compile Include="ValidateCode.cs" />
+    <Compile Include="VerifyData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartSecurity\SmartSecurity.csproj">
+      <Project>{116EC11E-6812-48DF-BFD6-8B3FF66C884F}</Project>
+      <Name>SmartSecurity</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SmartUtility\SmartUtility.csproj">
-      <Project>{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}</Project>
-      <Name>SmartUtility</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSpiderConfig", "SmartS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公共组件", "公共组件", "{11232049-0B77-42AA-9192-9173D73CA77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartUtility", "..\Smart\SmartUtility\SmartUtility.csproj", "{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartUtility", "SmartUtility\SmartUtility.csproj", "{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDBUtility", "..\Smart\SmartDBUtility\SmartDBUtility.csproj", "{40B79F71-57F3-4E04-8277-25A24CDCB7A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDBUtility", "SmartDBUtility\SmartDBUtility.csproj", "{40B79F71-57F3-4E04-8277-25A24CDCB7A5}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
