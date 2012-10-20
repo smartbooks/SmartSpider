@@ -56,6 +56,12 @@
       <Name>SmartSecurity</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+	<ProjectReference Include="..\SmartSecurity\SmartSecurity.csproj">
+      <Project>{116EC11E-6812-48DF-BFD6-8B3FF66C884F}</Project>
+      <Name>SmartSecurity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

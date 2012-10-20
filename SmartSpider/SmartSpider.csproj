@@ -209,11 +209,11 @@
     <None Include="Resources\taskmin.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Smart\SmartDBUtility\SmartDBUtility.csproj">
+    <ProjectReference Include="..\SmartDBUtility\SmartDBUtility.csproj">
       <Project>{40B79F71-57F3-4E04-8277-25A24CDCB7A5}</Project>
       <Name>SmartDBUtility</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Smart\SmartUtility\SmartUtility.csproj">
+    <ProjectReference Include="..\SmartUtility\SmartUtility.csproj">
       <Project>{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}</Project>
       <Name>SmartUtility</Name>
     </ProjectReference>

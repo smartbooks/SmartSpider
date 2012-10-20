@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSpiderConfig", "SmartS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公共组件", "公共组件", "{11232049-0B77-42AA-9192-9173D73CA77D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSecurity", "SmartSecurity\SmartSecurity.csproj", "{116EC11E-6812-48DF-BFD6-8B3FF66C884F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartUtility", "SmartUtility\SmartUtility.csproj", "{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDBUtility", "SmartDBUtility\SmartDBUtility.csproj", "{40B79F71-57F3-4E04-8277-25A24CDCB7A5}"
@@ -55,7 +57,17 @@ Global
 		{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}.Release|x86.ActiveCfg = Release|Any CPU		
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{116EC11E-6812-48DF-BFD6-8B3FF66C884F}.Release|x86.ActiveCfg = Release|Any CPU		
 		{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
