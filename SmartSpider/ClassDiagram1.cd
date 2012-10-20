@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartSpider.FrmAboutUS" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAEAAAAAAEBAAAA=</HashCode>
+      <FileName>FrmAboutUS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.FrmLoading" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAgACAAAACEAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>FrmLoading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.FrmMain" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>c8V8X/0jqv09lq6x7JbqIxvuObcV4xIglo/9iYUZmpQ=</HashCode>
+      <FileName>FrmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.FrmOption" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yOAAQAQASIAQBGAAAyAIAxCIAA4UAwCECAAAEUBAbI=</HashCode>
+      <FileName>FrmOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.FrmReplace" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAMQ7AAAAECAAAMEAAAA=</HashCode>
+      <FileName>FrmReplace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.FrmTask" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/z+BQQMQASIQQDmXEDygoIlD8Mw70MziMCAAcPX5h7s=</HashCode>
+      <FileName>FrmTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Program" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.SmartSpider" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAEgAAAIAAAACBEAABQZAAFAABAAAABEAAAIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Utility.TaskFolderTree" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Utility\TaskFolderTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Utility.OperatingHelper" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\OperatingHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartSpider.Config.Configuration" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>inAiBwTniLHwACWRkDAUFwGiCWxPE2DyFBR0i2CGBAQ=</HashCode>
+      <FileName>Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.RequestHeader" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RequestHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.Task" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBJxYFc85EHiQKkMwSkCsNSZRQApEIzEkiwQbPRw5AA=</HashCode>
+      <FileName>Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.ExtractionRule" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>YMpDAMMCQBAABAQJ3o5NtQQdgEMFA0CGgCACB4AFRPE=</HashCode>
+      <FileName>ExtractionRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.HtmlMark" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAIEAAAAAIAQAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>HtmlMark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.Filter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAgAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAgAAAAIAA=</HashCode>
+      <FileName>Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.UrlListManager" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAACAABAAAgAABAAQSABADIACAAEAggIAAAAIABIAA=</HashCode>
+      <FileName>UrlListManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.PagedUrlPatterns" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAAAAAAQAAAAwAAEgAAAAAIAAAAAABAAI=</HashCode>
+      <FileName>PagedUrlPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.NavigationRule" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAwIMoAARCBQIQAQkEJAZAAAAEcBAAg/gSEARCgGE=</HashCode>
+      <FileName>NavigationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.Replacement" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AUQAAAAAAAAAAAAAAAAA0AAAgAgAABAAAAAAACAAAAA=</HashCode>
+      <FileName>Replacement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.RegularExpression" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAoAQAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>RegularExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.LogEventArgs" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEAAAIAAAAAAAAABAAAAAEAAAAIAAAAAA=</HashCode>
+      <FileName>LogEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.SmartSpiderInformation" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABCACAAAAAAAAAAAQAAAAAAAACAgCAAAAIACA=</HashCode>
+      <FileName>SmartSpiderInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.SmartSpiderWebProxy" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAQIAAEAACAAACAACAAAAAAAACAA=</HashCode>
+      <FileName>SmartSpiderWebProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.TaskController" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAABAAAAAAAAABAAAAAEAAAAAgAAAAAAAEAA=</HashCode>
+      <FileName>TaskController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.TaskUnit" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAjSQAABWAIABQQIAAAgAEACBoAiAAAIjAAFEAAAAQ=</HashCode>
+      <FileName>TaskUnit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartSpider.Config.HttpHelper" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAIACAAQAAAAgAAAAEAg=</HashCode>
+      <FileName>HttpHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartSpider.Config.SmartSpiderCore" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAQAAAACUIAAwAAAAAAAIAABgAAEAgoAAQAQAAAAA=</HashCode>
+      <FileName>SmartSpiderCore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartSpider.Config.HtmlMarkDictionary" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEACAAAAAA=</HashCode>
+      <FileName>HtmlMarkDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SmartSpider.Config.ISmartSpider" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAQAAAACUIAAwAAAAAAAIAABgAAEAgoAAQAQAAAAA=</HashCode>
+      <FileName>ISmartSpider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SmartSpider.Config.ShutDownMode" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShutDownMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.NotifyWindowMode" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>NotifyWindowMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.LogFileStyle" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogFileStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.Action" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAACAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Action.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.DatabaseType" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAABAAACAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.Layer" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Layer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.ScheduleMode" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ScheduleMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.Week" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAACAAAAAAAAAAACAAIACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.RequiredOptions" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAQAAAAAUIAAQAAAAAAAIAABAAAAAgIAAQAQEAAAA=</HashCode>
+      <FileName>RequiredOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.HttpMethod" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACAAAEAQAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HttpMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SmartSpider.Config.PagedUrlPatternsMode" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PagedUrlPatternsMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SmartSpider.Config.LogEventHanlder" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>LogEventHanlder.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SmartSpider.Config.OnAppendResult" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnAppendResult.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SmartSpider.Config.OnTaskStatusChanges" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnTaskStatusChanges.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

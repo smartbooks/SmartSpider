@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>电影天堂-欧美电影</Name>
+  <Description>欧美电影</Description>
+  <State>Ready</State>
+  <ElapsedTime>49</ElapsedTime>
+  <StartingTime>0001-01-01T00:00:00</StartingTime>
+  <ThreadNumber>1</ThreadNumber>
+  <OutputDetailedLog>true</OutputDetailedLog>
+  <SaveLogToFile>false</SaveLogToFile>
+  <lastLogFileName />
+  <Cookie />
+  <LoginUrl />
+  <LoginAutomatically>false</LoginAutomatically>
+  <LoginTargetUrl />
+  <LoginSuccessFlag />
+  <LoginAtRegularIntervals>false</LoginAtRegularIntervals>
+  <LoginInterval>20</LoginInterval>
+  <UsePluginOfLogin>false</UsePluginOfLogin>
+  <LoginUrlReferer />
+  <ScheduleEnabled>false</ScheduleEnabled>
+  <ScheduleMode>Time</ScheduleMode>
+  <ScheduleDays>0</ScheduleDays>
+  <ScheduleHours>0</ScheduleHours>
+  <ScheduleMinutes>0</ScheduleMinutes>
+  <ScheduleLimitTimeRange>false</ScheduleLimitTimeRange>
+  <ScheduleFromHour>0</ScheduleFromHour>
+  <ScheduleToHour>23</ScheduleToHour>
+  <ScheduleFromDayOfWeek>Sunday</ScheduleFromDayOfWeek>
+  <ScheduleToDayOfWeek>Saturday</ScheduleToDayOfWeek>
+  <ScheduleFromDay>1</ScheduleFromDay>
+  <ScheduleToDay>31</ScheduleToDay>
+  <DisableScheduleAfterFinish>false</DisableScheduleAfterFinish>
+  <lastStoppingTime>0001-01-01T00:00:00</lastStoppingTime>
+  <ConnectionString />
+  <DatabaseType>Access</DatabaseType>
+  <PublicationTarget />
+  <UseProcedure>false</UseProcedure>
+  <PublishResultDircetly>false</PublishResultDircetly>
+  <DeleteResultAfterPublication>false</DeleteResultAfterPublication>
+  <IgnoreDataColumnNotFound>false</IgnoreDataColumnNotFound>
+  <SaveRepeatedRows>false</SaveRepeatedRows>
+  <SaveErrorRows>false</SaveErrorRows>
+  <UsePluginOfProcessResultRow>false</UsePluginOfProcessResultRow>
+  <CurrentResultCount>0</CurrentResultCount>
+  <ResultCount>0</ResultCount>
+  <RepeatedRowsCount>0</RepeatedRowsCount>
+  <ErrorRowsCount>0</ErrorRowsCount>
+  <PluginPath />
+  <UsePluginOfDownloadContentFile>false</UsePluginOfDownloadContentFile>
+  <UsePluginOfDownloadSingleFile>false</UsePluginOfDownloadSingleFile>
+  <UsePluginOfProcessContentFile>false</UsePluginOfProcessContentFile>
+  <UsePluginOfProcessSingleFile>false</UsePluginOfProcessSingleFile>
+  <UsePluginOfFilter>false</UsePluginOfFilter>
+  <UsePluginOfGetWebProxy>false</UsePluginOfGetWebProxy>
+  <ExtractionRules>
+    <ExtractionRule>
+      <Name>网址</Name>
+      <DataColumn>Urls</DataColumn>
+      <DataUnique>false</DataUnique>
+      <Layer>Terminator</Layer>
+      <PreviousFlag>&lt;td style="WORD-WRAP: break-word" bgcolor="#fdfddf"&gt;&lt;a</PreviousFlag>
+      <FollowingFlag>&lt;br&gt;&lt;center&gt;&lt;/center&gt;</FollowingFlag>
+      <Global>false</Global>
+      <Static>true</Static>
+      <Essential>false</Essential>
+      <UsePlugin>false</UsePlugin>
+      <IsDownloadUrl>false</IsDownloadUrl>
+      <DetectRealUrl>false</DetectRealUrl>
+      <DownloadImages>false</DownloadImages>
+      <DownloadFlashes>false</DownloadFlashes>
+      <DownloadAttachments>false</DownloadAttachments>
+      <AttachmentUrlIdentifier />
+      <DownloadDirectory />
+      <VirtualPath />
+      <UseRandomFileName>false</UseRandomFileName>
+      <FileNameExtension />
+      <CreateSubDirectories>false</CreateSubDirectories>
+      <CurrentSubDirectory />
+      <FilesPerSubDirectory>0</FilesPerSubDirectory>
+      <UseClassDirectory>false</UseClassDirectory>
+      <ClassDirectoryField />
+      <SkipIfFileExisted>false</SkipIfFileExisted>
+      <UrlAsResult>false</UrlAsResult>
+      <PostParametersAsResult>false</PostParametersAsResult>
+      <TimeAsResult>false</TimeAsResult>
+      <LinkTextAsResult>false</LinkTextAsResult>
+      <ResponseHeaderAsResult>false</ResponseHeaderAsResult>
+      <ResponseHeaderName />
+      <ConstantAsResult>false</ConstantAsResult>
+      <ConstantValue>href="\S+.[a-z0-9]+"</ConstantValue>
+      <MergePages>false</MergePages>
+      <MergenceSeparator />
+      <ReserveAllHtmlMarks>false</ReserveAllHtmlMarks>
+      <ReservedHtmlMarks />
+      <Replacements>
+        <Replacement>
+          <OldValue>href=</OldValue>
+          <NewValue />
+          <UseRegex>false</UseRegex>
+          <OnlyMatchOldValue>false</OnlyMatchOldValue>
+          <Repeatable>false</Repeatable>
+        </Replacement>
+        <Replacement>
+          <OldValue>"</OldValue>
+          <NewValue />
+          <UseRegex>false</UseRegex>
+          <OnlyMatchOldValue>false</OnlyMatchOldValue>
+          <Repeatable>false</Repeatable>
+        </Replacement>
+      </Replacements>
+      <Filters />
+    </ExtractionRule>
+  </ExtractionRules>
+  <UrlListManager>
+    <StartingUrlListPosition>0</StartingUrlListPosition>
+    <PickedUrlsCount>0</PickedUrlsCount>
+    <PickedUrlsPosition>0</PickedUrlsPosition>
+    <HistoryUrlsCount>0</HistoryUrlsCount>
+    <HistoryUrlCapacity>1000</HistoryUrlCapacity>
+    <UrlEncoding>gb2312</UrlEncoding>
+    <StartingUrlEncoded>false</StartingUrlEncoded>
+    <UsePluginOfLoadStartingUrl>false</UsePluginOfLoadStartingUrl>
+    <StartingUrlTemplate />
+    <PagedUrlPattern />
+    <NavigationRules>
+      <NavigationRule>
+        <Name>列表页</Name>
+        <Terminal>false</Terminal>
+        <PickNextLayerUrls>false</PickNextLayerUrls>
+        <NextLayerUrlPattern>/html/gndy/[a-z.]*/\d{8}/\d{5}.[a-z]+</NextLayerUrlPattern>
+        <UseRegularExpression>true</UseRegularExpression>
+        <HistoryUrlEnabled>false</HistoryUrlEnabled>
+        <HistoryUrlOptimization>false</HistoryUrlOptimization>
+        <PickNextPageUrl>false</PickNextPageUrl>
+        <NextPageUrlPattern />
+        <NextPageLargest>0</NextPageLargest>
+        <PickingStartFlag />
+        <PickingEndFlag />
+        <ExtractionStartFlag>&lt;html&gt;</ExtractionStartFlag>
+        <ExtractionEndFlag>&lt;/html&gt;</ExtractionEndFlag>
+        <IterationFlag />
+        <RestInterval>0</RestInterval>
+        <ContentEncoding />
+        <ProccessScripts>false</ProccessScripts>
+        <NextLayerUrlReferer />
+        <NextLayerUrlEncoded>false</NextLayerUrlEncoded>
+        <JsDecoding>false</JsDecoding>
+        <SkipToIfPickingFailed />
+        <UsePluginOfVisit>false</UsePluginOfVisit>
+        <UsePluginOfPickNextLayerUrls>false</UsePluginOfPickNextLayerUrls>
+        <UsePluginOfPickNextPageUrl>false</UsePluginOfPickNextPageUrl>
+        <Replacements />
+      </NavigationRule>
+    </NavigationRules>
+    <StartingUrlList>
+      <string>http://www.dytt8.net/html/gndy/oumei/index.html</string>
+    </StartingUrlList>
+  </UrlListManager>
+  <PluginData />
+</Task>

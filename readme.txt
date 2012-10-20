@@ -1,2 +1,1 @@
-readme
-Git client submit text.
+This is SmartSpider projetc.

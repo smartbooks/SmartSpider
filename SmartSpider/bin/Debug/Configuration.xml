@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RequestTimeout>10</RequestTimeout>
+  <AllowedRetryTimes>3</AllowedRetryTimes>
+  <AllowedRequestFailures>0</AllowedRequestFailures>
+  <AllowedPickingFailures>0</AllowedPickingFailures>
+  <AllowedExtractionFailures>0</AllowedExtractionFailures>
+  <FailuresNotifyEnabled>false</FailuresNotifyEnabled>
+  <FailuresNotifySmtpServer />
+  <FailuresNotifySmtpPort>25</FailuresNotifySmtpPort>
+  <FailuresNotifySmtpUsername />
+  <FailuresNotifySmtpPassword />
+  <FailuresNotifyReceivers />
+  <MaximumRunningTasks>0</MaximumRunningTasks>
+  <TaskQueueEnabled>false</TaskQueueEnabled>
+  <DisableSchedule>false</DisableSchedule>
+  <ScheduleOffset>5</ScheduleOffset>
+  <NotifyIconEnabled>false</NotifyIconEnabled>
+  <PosterNotifyIconEnabled>false</PosterNotifyIconEnabled>
+  <ShiftRunningInformationPageAutomatically>true</ShiftRunningInformationPageAutomatically>
+  <RunningInformationLogCapacity>1000</RunningInformationLogCapacity>
+  <RunningInformationResultCapacity>1000</RunningInformationResultCapacity>
+  <ResultCacheSize>1000</ResultCacheSize>
+  <RunningAreaCapacity>50</RunningAreaCapacity>
+  <StopRunningTasksWhenExit>false</StopRunningTasksWhenExit>
+  <WebProxyEnabled>false</WebProxyEnabled>
+  <WebProxyHost>127.0.0.1</WebProxyHost>
+  <WebProxyPort>8080</WebProxyPort>
+  <WebProxyUsername />
+  <WebProxyPassword />
+  <WebProxyTestUrl>http://www.google.com.hk</WebProxyTestUrl>
+  <RequestHeaders />
+  <ShutDownMode>PowerOff</ShutDownMode>
+  <NotifyWindowMode>AllTasks</NotifyWindowMode>
+  <LogFileStyle>Single</LogFileStyle>
+  <LogFileSize>1024</LogFileSize>
+  <LogCacheSize>1000</LogCacheSize>
+  <StateSavingInterval>10</StateSavingInterval>
+  <MemoryTrimmingInterval>0</MemoryTrimmingInterval>
+  <RestartIfOutOfMemory>false</RestartIfOutOfMemory>
+  <SqlTimeout>30</SqlTimeout>
+  <DefaultResultReplacements />
+  <TaskTemplate />
+  <DeleteConnectionStringWhenExport>false</DeleteConnectionStringWhenExport>
+  <LanguagePackagePath />
+  <ResultViewPageSize>50</ResultViewPageSize>
+  <NotifyWindowVisible>false</NotifyWindowVisible>
+  <NotifyWindowLeft>0</NotifyWindowLeft>
+  <NotifyWindowTop>0</NotifyWindowTop>
+  <NotifyWindowWidth>393</NotifyWindowWidth>
+  <NotifyWindowHeight>71</NotifyWindowHeight>
+  <TaskEditorWidth>780</TaskEditorWidth>
+  <TaskEditorHeight>550</TaskEditorHeight>
+  <FolderTreeWidth>176</FolderTreeWidth>
+  <RunningInformationPageHeight>404</RunningInformationPageHeight>
+  <LogPanelHeight>100</LogPanelHeight>
+  <TaskNameColumnWidth>180</TaskNameColumnWidth>
+</Configuration>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{865963E2-E6AC-4617-94C8-908564665DF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartSpider</RootNamespace>
+    <AssemblyName>SmartSpider</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mainProgram.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAboutUS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAboutUS.Designer.cs">
+      <DependentUpon>FrmAboutUS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOption.Designer.cs">
+      <DependentUpon>FrmOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReplace.Designer.cs">
+      <DependentUpon>FrmReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTask.Designer.cs">
+      <DependentUpon>FrmTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartSpider.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SmartSpider.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainUtility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\ExtractionRulesItem.cs" />
+    <Compile Include="Utility\NavigationRuleItem.cs" />
+    <Compile Include="Utility\SplitContainerRight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utility\TaskListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utility\TaskResultLog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utility\TaskFolderTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utility\TaskViewItem.cs" />
+    <EmbeddedResource Include="FrmAboutUS.resx">
+      <DependentUpon>FrmAboutUS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoading.resx">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOption.resx">
+      <DependentUpon>FrmOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReplace.resx">
+      <DependentUpon>FrmReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTask.resx">
+      <DependentUpon>FrmTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SmartSpider.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SmartSpider.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\TaskResultLog.resx">
+      <DependentUpon>TaskResultLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddMin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foldermax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foldermin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taskmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taskmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Smart\SmartDBUtility\SmartDBUtility.csproj">
+      <Project>{40B79F71-57F3-4E04-8277-25A24CDCB7A5}</Project>
+      <Name>SmartDBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Smart\SmartUtility\SmartUtility.csproj">
+      <Project>{B7456CA5-DDD6-47D7-9618-9C4A5F7C8D6B}</Project>
+      <Name>SmartUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartSpiderConfig\SmartSpiderConfig.csproj">
+      <Project>{4E1169EC-CCD2-4F8E-8157-47CE07753DD9}</Project>
+      <Name>SmartSpiderConfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletemax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletemin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exportmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exportmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausemax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausemin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdownmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdownmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sitemax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sitemin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timemax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timemin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mainProgram.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

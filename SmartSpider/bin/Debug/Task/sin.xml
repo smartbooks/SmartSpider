@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>新浪新闻-国内</Name>
+  <Description>新浪新闻采集</Description>
+  <State>Ready</State>
+  <ElapsedTime>0</ElapsedTime>
+  <StartingTime>0001-01-01T00:00:00</StartingTime>
+  <ThreadNumber>1</ThreadNumber>
+  <OutputDetailedLog>true</OutputDetailedLog>
+  <SaveLogToFile>false</SaveLogToFile>
+  <lastLogFileName />
+  <Cookie />
+  <LoginUrl />
+  <LoginAutomatically>false</LoginAutomatically>
+  <LoginTargetUrl />
+  <LoginSuccessFlag />
+  <LoginAtRegularIntervals>false</LoginAtRegularIntervals>
+  <LoginInterval>20</LoginInterval>
+  <UsePluginOfLogin>false</UsePluginOfLogin>
+  <LoginUrlReferer />
+  <ScheduleEnabled>false</ScheduleEnabled>
+  <ScheduleMode>Time</ScheduleMode>
+  <ScheduleDays>0</ScheduleDays>
+  <ScheduleHours>0</ScheduleHours>
+  <ScheduleMinutes>0</ScheduleMinutes>
+  <ScheduleLimitTimeRange>false</ScheduleLimitTimeRange>
+  <ScheduleFromHour>0</ScheduleFromHour>
+  <ScheduleToHour>23</ScheduleToHour>
+  <ScheduleFromDayOfWeek>Sunday</ScheduleFromDayOfWeek>
+  <ScheduleToDayOfWeek>Saturday</ScheduleToDayOfWeek>
+  <ScheduleFromDay>1</ScheduleFromDay>
+  <ScheduleToDay>31</ScheduleToDay>
+  <DisableScheduleAfterFinish>false</DisableScheduleAfterFinish>
+  <lastStoppingTime>0001-01-01T00:00:00</lastStoppingTime>
+  <ConnectionString />
+  <DatabaseType>Access</DatabaseType>
+  <PublicationTarget />
+  <UseProcedure>false</UseProcedure>
+  <PublishResultDircetly>false</PublishResultDircetly>
+  <DeleteResultAfterPublication>false</DeleteResultAfterPublication>
+  <IgnoreDataColumnNotFound>false</IgnoreDataColumnNotFound>
+  <SaveRepeatedRows>false</SaveRepeatedRows>
+  <SaveErrorRows>false</SaveErrorRows>
+  <UsePluginOfProcessResultRow>false</UsePluginOfProcessResultRow>
+  <CurrentResultCount>0</CurrentResultCount>
+  <ResultCount>0</ResultCount>
+  <RepeatedRowsCount>0</RepeatedRowsCount>
+  <ErrorRowsCount>0</ErrorRowsCount>
+  <PluginPath />
+  <UsePluginOfDownloadContentFile>false</UsePluginOfDownloadContentFile>
+  <UsePluginOfDownloadSingleFile>false</UsePluginOfDownloadSingleFile>
+  <UsePluginOfProcessContentFile>false</UsePluginOfProcessContentFile>
+  <UsePluginOfProcessSingleFile>false</UsePluginOfProcessSingleFile>
+  <UsePluginOfFilter>false</UsePluginOfFilter>
+  <UsePluginOfGetWebProxy>false</UsePluginOfGetWebProxy>
+  <ExtractionRules>
+    <ExtractionRule>
+      <Name>标题</Name>
+      <DataColumn>title</DataColumn>
+      <DataUnique>false</DataUnique>
+      <Layer>Terminator</Layer>
+      <PreviousFlag>&lt;title&gt;</PreviousFlag>
+      <FollowingFlag>&lt;/title&gt;</FollowingFlag>
+      <Global>false</Global>
+      <Static>false</Static>
+      <Essential>false</Essential>
+      <UsePlugin>false</UsePlugin>
+      <IsDownloadUrl>false</IsDownloadUrl>
+      <DetectRealUrl>false</DetectRealUrl>
+      <DownloadImages>false</DownloadImages>
+      <DownloadFlashes>false</DownloadFlashes>
+      <DownloadAttachments>false</DownloadAttachments>
+      <AttachmentUrlIdentifier />
+      <UseRandomFileName>false</UseRandomFileName>
+      <CreateSubDirectories>false</CreateSubDirectories>
+      <FilesPerSubDirectory>0</FilesPerSubDirectory>
+      <UseClassDirectory>false</UseClassDirectory>
+      <ClassDirectoryField />
+      <SkipIfFileExisted>false</SkipIfFileExisted>
+      <UrlAsResult>false</UrlAsResult>
+      <PostParametersAsResult>false</PostParametersAsResult>
+      <TimeAsResult>false</TimeAsResult>
+      <LinkTextAsResult>false</LinkTextAsResult>
+      <ResponseHeaderAsResult>false</ResponseHeaderAsResult>
+      <ConstantAsResult>false</ConstantAsResult>
+      <MergePages>false</MergePages>
+      <ReserveAllHtmlMarks>false</ReserveAllHtmlMarks>
+    </ExtractionRule>
+    <ExtractionRule>
+      <Name>内容</Name>
+      <DataColumn>Content</DataColumn>
+      <DataUnique>false</DataUnique>
+      <Layer>Terminator</Layer>
+      <PreviousFlag>&lt;!-- 正文内容 begin --&gt;</PreviousFlag>
+      <FollowingFlag>&lt;!-- 分享 begin --&gt;</FollowingFlag>
+      <Global>false</Global>
+      <Static>false</Static>
+      <Essential>false</Essential>
+      <UsePlugin>false</UsePlugin>
+      <IsDownloadUrl>false</IsDownloadUrl>
+      <DetectRealUrl>false</DetectRealUrl>
+      <DownloadImages>false</DownloadImages>
+      <DownloadFlashes>false</DownloadFlashes>
+      <DownloadAttachments>false</DownloadAttachments>
+      <AttachmentUrlIdentifier />
+      <UseRandomFileName>false</UseRandomFileName>
+      <CreateSubDirectories>false</CreateSubDirectories>
+      <FilesPerSubDirectory>0</FilesPerSubDirectory>
+      <UseClassDirectory>false</UseClassDirectory>
+      <ClassDirectoryField />
+      <SkipIfFileExisted>false</SkipIfFileExisted>
+      <UrlAsResult>false</UrlAsResult>
+      <PostParametersAsResult>false</PostParametersAsResult>
+      <TimeAsResult>false</TimeAsResult>
+      <LinkTextAsResult>false</LinkTextAsResult>
+      <ResponseHeaderAsResult>false</ResponseHeaderAsResult>
+      <ConstantAsResult>false</ConstantAsResult>
+      <MergePages>false</MergePages>
+      <ReserveAllHtmlMarks>false</ReserveAllHtmlMarks>
+    </ExtractionRule>
+    <ExtractionRule>
+      <Name>网址</Name>
+      <DataColumn>Urls</DataColumn>
+      <DataUnique>false</DataUnique>
+      <Layer>Terminator</Layer>
+      <Global>false</Global>
+      <Static>false</Static>
+      <Essential>false</Essential>
+      <UsePlugin>false</UsePlugin>
+      <IsDownloadUrl>false</IsDownloadUrl>
+      <DetectRealUrl>false</DetectRealUrl>
+      <DownloadImages>false</DownloadImages>
+      <DownloadFlashes>false</DownloadFlashes>
+      <DownloadAttachments>false</DownloadAttachments>
+      <AttachmentUrlIdentifier />
+      <UseRandomFileName>false</UseRandomFileName>
+      <CreateSubDirectories>false</CreateSubDirectories>
+      <FilesPerSubDirectory>0</FilesPerSubDirectory>
+      <UseClassDirectory>false</UseClassDirectory>
+      <ClassDirectoryField />
+      <SkipIfFileExisted>false</SkipIfFileExisted>
+      <UrlAsResult>true</UrlAsResult>
+      <PostParametersAsResult>false</PostParametersAsResult>
+      <TimeAsResult>false</TimeAsResult>
+      <LinkTextAsResult>false</LinkTextAsResult>
+      <ResponseHeaderAsResult>false</ResponseHeaderAsResult>
+      <ConstantAsResult>false</ConstantAsResult>
+      <MergePages>false</MergePages>
+      <ReserveAllHtmlMarks>false</ReserveAllHtmlMarks>
+    </ExtractionRule>
+  </ExtractionRules>
+  <UrlListManager>
+    <StartingUrlListPosition>0</StartingUrlListPosition>
+    <PickedUrlsCount>0</PickedUrlsCount>
+    <PickedUrlsPosition>0</PickedUrlsPosition>
+    <HistoryUrlsCount>0</HistoryUrlsCount>
+    <HistoryUrlCapacity>1000</HistoryUrlCapacity>
+    <UrlEncoding>gb2312</UrlEncoding>
+    <StartingUrlEncoded>false</StartingUrlEncoded>
+    <UsePluginOfLoadStartingUrl>false</UsePluginOfLoadStartingUrl>
+    <StartingUrlTemplate />
+    <PagedUrlPattern>
+      <PagedUrlPatterns>
+        <StartPage>0</StartPage>
+        <EndPage>5</EndPage>
+        <Step>1</Step>
+        <Format>Increment</Format>
+        <PagedUrlPattern>http://roll.news.sina.com.cn/news/gjxw/hqqw/index_{0,5,1}.shtml</PagedUrlPattern>
+      </PagedUrlPatterns>
+    </PagedUrlPattern>
+    <NavigationRules>
+      <NavigationRule>
+        <Name>列表页</Name>
+        <Terminal>false</Terminal>
+        <PickNextLayerUrls>false</PickNextLayerUrls>
+        <NextLayerUrlPattern>http://[a-z.]*\.sina\.com\.cn/w[0-9a-zA-Z-_/]*\.[a-z]+</NextLayerUrlPattern>
+        <UseRegularExpression>false</UseRegularExpression>
+        <HistoryUrlEnabled>false</HistoryUrlEnabled>
+        <HistoryUrlOptimization>false</HistoryUrlOptimization>
+        <PickNextPageUrl>false</PickNextPageUrl>
+        <NextPageLargest>0</NextPageLargest>
+        <ExtractionStartFlag>&lt;html&gt;</ExtractionStartFlag>
+        <ExtractionEndFlag>&lt;/html&gt;</ExtractionEndFlag>
+        <RestInterval>0</RestInterval>
+        <ProccessScripts>false</ProccessScripts>
+        <NextLayerUrlEncoded>false</NextLayerUrlEncoded>
+        <JsDecoding>false</JsDecoding>
+        <UsePluginOfVisit>false</UsePluginOfVisit>
+        <UsePluginOfPickNextLayerUrls>false</UsePluginOfPickNextLayerUrls>
+        <UsePluginOfPickNextPageUrl>false</UsePluginOfPickNextPageUrl>
+      </NavigationRule>
+    </NavigationRules>
+    <StartingUrlList />
+  </UrlListManager>
+  <PluginData />
+</Task>
